@@ -11,6 +11,7 @@ This project aims to group clients based on the data they provide. The model lea
 - TensorFlow or PyTorch
 - Scikit-learn
 - NumPy
+- CICIDS_15 Dataset must be downloaded before running the notebook
 
 # How It Works
 The model utilizes Federated Learning to create and update clusters of clients based on the data they provide. By training locally on client devices, the model secures sensitive data while allowing for efficient updates to clustering as new data is available.
